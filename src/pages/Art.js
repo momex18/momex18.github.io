@@ -3,53 +3,37 @@ import '../App.css';
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
 
 
 function Art() {
-  const bull = (
-    <Box
-      component="span"
-      sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
-    >
-      •
-    </Box>
-  );
 
   const cardBox = (
     <React.Fragment>
       <CardContent>
-        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-          Word of the Day
-        </Typography>
         <Typography variant="h5" component="div">
-          be{bull}nev{bull}o{bull}lent
-        </Typography>
-        <Typography sx={{ mb: 1.5 }} color="text.secondary">
-          adjective
-        </Typography>
-        <Typography variant="body2">
-          well meaning and kindly.
-          <br />
-          {'"a benevolent smile"'}
+          The Amazing Angelika
         </Typography>
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        When I think of you,<br/>
+        I think of amazing beauty.<br/>
+        Splendid wonder<br/>
+        Serene grace.<br/>
+        You embody everything that is right and perfect in this world.<br/>
+        Your lovely eyes,<br/>
+        Your cute lips,<br/>
+        Your flowing hair,<br/>
+        Your sophisticated outfits,<br/>
+        and the beautiful mind of yours.<br/>
+        Your intelligence is wonderful,<br/>
+        Your personality is pure bliss,<br/>
+        and I feel encapsulated by the essence of you.<br/>
+        I cannot help but be in amazement of you.<br/>
+        All of you.<br/>
         </p>
       </CardContent>
-      <CardActions sx={{ position: 'absolute', left: 0, bottom: 0}}>
-        <Button size="small">Open</Button>
-      </CardActions>
     </React.Fragment>
   );
 
@@ -57,7 +41,7 @@ function Art() {
     <div className="Art">
           <h1>Art page!</h1>
           <p>
-            Creating a new page
+            I wrote you a poem. I hope you enjoy!
           </p>
           <Box sx={{ minWidth: 275, height: 375, position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)' }}>
             <Card sx={{ backgroundColor: '#4f4f4f', color: '#fff' }} variant="outlined">{cardBox}</Card>

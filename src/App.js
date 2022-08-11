@@ -44,7 +44,7 @@ function App() {
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
       />
       {/* <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Tinos" /> */}
-      <AppBar position="static" style={{ background: '#A32CC4' }}>
+      <AppBar position="static" style={{ background: '#89CFF0' }}>
         <Toolbar>
           <IconButton
             size="large"
@@ -57,7 +57,7 @@ function App() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Test new App
+            Angelika's Amazing Website!
           </Typography>
         </Toolbar>
       </AppBar>

@@ -7,10 +7,10 @@ import * as React from 'react';
 function Home() {
   return (
     <div className="Home">
-          <h1>Home page!</h1>
+          <h1>Angelika's Home page!</h1>
           <p>
-            Welcome to my app!
-            I am testing more text to see how this font looks!
+            Welcome to your website!
+            Click the botton on the left to see what goodies I made for you!
           </p>
     </div>
   );

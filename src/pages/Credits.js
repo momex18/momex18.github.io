@@ -13,12 +13,22 @@ function Credits() {
           <>
           <p>
           </p>
-            <Button sx={{ position: 'block'}} variant="contained" onClick={() => setOpen(true)}>Credit goes to....</Button>
+            <Button sx={{ position: 'block'}} variant="contained" onClick={() => setOpen(true)}>Angelika, thank you for...</Button>
             <CenterModal isOpen={isOpen} onDismiss={() => setOpen(false)}>
               {/* Defaults to <h1> and gives it an id to make it the label for your modal */}
-              <ModalTitle>Credit goes to....</ModalTitle>
+              <ModalTitle>Angelika, thank you for...</ModalTitle>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Being you.<br/>
+              For giving me the opportunity to talk to you,<br/>
+              To make you smile,<br/>
+              To make you happy,<br/>
+              To make you feel valued,<br/>
+              Loved,<br/>
+              Appreciated.<br/>
+              For letting me have conversations about anything no matter how silly they are.<br/>
+              For the time you have for me.<br/>
+              I'm lucky to know someone so amazing and I want to continue to talk to you and make you feel like you matter.<br/>
+              That's why this website was made. It was made just for you.<br/>
               </p>
 
               {/* Automatically adds onClick that dismisses modal */}

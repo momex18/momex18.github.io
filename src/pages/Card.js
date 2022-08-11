@@ -8,17 +8,17 @@ function CardFunc(props)
 
     var picItems = [
       {
-          name: "./goldblum.jpg",
+          name: "./card.jpg",
           width: "300",
           height: "400",
           style: "cardCenter",
           description: "Probably the most random thing you have ever seen!"
       },
       {
-          name: "./goldblum2.jpg",
-          width: "300", //480 default
-          height: "240", // 384 default
-          style: "cardCenterVertical",
+          name: "./frying_pan.jpg",
+          width: "440", //480 default
+          height: "300", // 384 default
+          style: "cardCenter",
           description: "Hello World!"
       }
   ]
@@ -32,7 +32,7 @@ function CardFunc(props)
             <Button sx={{ position: 'block'}} variant="contained" onClick={() => setOpen(true)}>Click to Open</Button>
             <CenterModal isOpen={isOpen} onDismiss={() => setOpen(false)}>
               {/* Defaults to <h1> and gives it an id to make it the label for your modal */}
-              <ModalTitle>Hello...</ModalTitle>
+              <ModalTitle>Angelika...</ModalTitle>
               <Carousel navButtonsAlwaysVisible="true" autoPlay="false">
                 {
                     picItems.map( (item, i) => <Item key={i} item={item} /> )
