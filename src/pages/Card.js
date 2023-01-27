@@ -32,7 +32,7 @@ function CardFunc(props)
             <Button sx={{ position: 'block'}} variant="contained" onClick={() => setOpen(true)}>Click to Open</Button>
             <CenterModal isOpen={isOpen} onDismiss={() => setOpen(false)}>
               {/* Defaults to <h1> and gives it an id to make it the label for your modal */}
-              <ModalTitle>Angelika...</ModalTitle>
+              <ModalTitle>Modal title</ModalTitle>
               <Carousel navButtonsAlwaysVisible="true" autoPlay="false">
                 {
                     picItems.map( (item, i) => <Item key={i} item={item} /> )

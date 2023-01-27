@@ -57,7 +57,7 @@ function App() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Angelika's Amazing Website!
+            Test Title
           </Typography>
         </Toolbar>
       </AppBar>

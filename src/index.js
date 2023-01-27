@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { StyledEngineProvider } from '@mui/material/styles';
 import App from './App';
+import Valentine from './pages/Valentine/Valentine';
 import reportWebVitals from './reportWebVitals';
 // import {
 //   BrowserRouter as Router,
@@ -12,7 +13,8 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <StyledEngineProvider injectFirst>
-      <App />
+      {/* <App /> */}
+      <Valentine />
   </StyledEngineProvider>,
   document.getElementById('root')
 );
