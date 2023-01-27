@@ -35,7 +35,7 @@ function App() {
     console.log("Text chosen is " + text);
     setState({ ...state, appear: appear });
     navigate("/" + text);
-  };
+  }; //test comment
   
   return (
     <div className="App">
