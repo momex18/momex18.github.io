@@ -29,7 +29,7 @@ function CardFunc(props)
         <>
           <p>
           </p>
-            <Button sx={{ position: 'block'}} variant="contained" onClick={() => setOpen(true)}>Click to Open</Button>
+            <Button sx={{ position: 'block'}} variant="contained" color="success" onClick={() => setOpen(true)}>Click for Memes</Button>
             <CenterModal isOpen={isOpen} onDismiss={() => setOpen(false)}>
               {/* Defaults to <h1> and gives it an id to make it the label for your modal */}
               <ModalTitle>Modal title</ModalTitle>

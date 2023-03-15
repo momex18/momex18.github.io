@@ -44,7 +44,8 @@ function App() {
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
       />
       {/* <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Tinos" /> */}
-      <AppBar position="static" style={{ background: '#89CFF0' }}>
+      {/* <AppBar position="static" style={{ background: '#E6E6FA', color: '#848884' }}> */}
+      <AppBar position="static" style={{ background: '#100C08', color: '#2A623D' }}>
         <Toolbar>
           <IconButton
             size="large"
@@ -57,20 +58,28 @@ function App() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Test Title
+            Erin's Constructible
           </Typography>
         </Toolbar>
       </AppBar>
       <Drawer
+            PaperProps={{
+              sx: {
+                backgroundColor: "black",
+                color: "red",
+              }
+            }}
+          
             variant="temporary"
             anchor={ 'left' }
             open={ state.appear }
             onClose={() =>toggleDrawer(false)}
+            // sx={{ backgroundColor: 'black' }}
           >
-            <List sx={{ width: 300 }}>
+            <List sx={{ width: 300, backgroundColor: '#100C08', color: '#2A623D' }}>
               <ListItem button key="Home" onClick={() => toggleDrawerNav("", false)}>
                  <ListItemIcon>
-                   <CottageIcon />
+                   <CottageIcon sx={{ color: 'green' }} />
                  </ListItemIcon>
                  <ListItemText primary="Home" />
               </ListItem>
@@ -78,9 +87,9 @@ function App() {
               {['Card', 'Art', 'Credits'].map((text, index) => (
                 <ListItem button key={text} onClick={() => toggleDrawerNav(text, false)}>
                   <ListItemIcon>
-                  {index === 0 ? <CardGiftcardSharpIcon /> : ''}
-                  {index === 1 ? <ArticleSharpIcon /> : ''}
-                  {index === 2 ? <StarBorderSharpIcon /> : ''}
+                  {index === 0 ? <CardGiftcardSharpIcon sx={{ color: 'green' }} /> : ''}
+                  {index === 1 ? <ArticleSharpIcon sx={{ color: 'green' }} /> : ''}
+                  {index === 2 ? <StarBorderSharpIcon sx={{ color: 'green' }} /> : ''}
                   </ListItemIcon>
                   <ListItemText primary={text} />
                 </ListItem>
