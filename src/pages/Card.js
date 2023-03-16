@@ -8,19 +8,82 @@ function CardFunc(props)
 
     var picItems = [
       {
-          name: "./card.jpg",
+          name: "./meme_1.jpg",
           width: "300",
           height: "400",
           style: "cardCenter",
-          description: "Probably the most random thing you have ever seen!"
+          description: "A funny meme!"
       },
       {
-          name: "./frying_pan.jpg",
-          width: "440", //480 default
-          height: "300", // 384 default
-          style: "cardCenter",
-          description: "Hello World!"
+        name: "./meme_2.jpg",
+        width: "300",
+        height: "400",
+        style: "cardCenter",
+        description: "Another meme meme!"
+      },
+      {
+        name: "./meme_4.jpg",
+        width: "300",
+        height: "400",
+        style: "cardCenter",
+        description: "Another meme meme!"
+      },
+      {
+        name: "./meme_5.jpg",
+        width: "300",
+        height: "400",
+        style: "cardCenter",
+        description: "Another meme meme!"
+      },
+      {
+        name: "./meme_6.jpg",
+        width: "300",
+        height: "400",
+        style: "cardCenter",
+        description: "Another meme meme!"
+      },
+      {
+        name: "./meme_7.jpg",
+        width: "300",
+        height: "400",
+        style: "cardCenter",
+        description: "Another meme meme!"
+      },
+      {
+        name: "./meme_8.jpg",
+        width: "300",
+        height: "400",
+        style: "cardCenter",
+        description: "Another meme meme!"
+      },
+      {
+        name: "./meme_9.jpg",
+        width: "300",
+        height: "400",
+        style: "cardCenter",
+        description: "Another meme meme!"
+      },
+      {
+        name: "./meme_10.jpg",
+        width: "300",
+        height: "400",
+        style: "cardCenter",
+        description: "Another meme meme!"
+      },
+      {
+        name: "./meme_3.jpg",
+        width: "300",
+        height: "400",
+        style: "cardCenter",
+        description: "And another!"
       }
+      // {
+      //     name: "./frying_pan.jpg",
+      //     width: "440", //480 default
+      //     height: "300", // 384 default
+      //     style: "cardCenter",
+      //     description: "Hello World!"
+      // }
   ]
 
     const [isOpen, setOpen] = React.useState(false);
