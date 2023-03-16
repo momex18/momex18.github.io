@@ -18,11 +18,11 @@ import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 
-import someRoutes from "./Router";
+import someRoutes from "./RouterApp";
 import { useRoutes, navigate } from "hookrouter";
 
 function App() {
-   const mainRoutes = useRoutes(someRoutes);
+  const mainRoutes = useRoutes(someRoutes);
   const [state, setState] = React.useState({
     appear: false,
   });
@@ -77,7 +77,7 @@ function App() {
             // sx={{ backgroundColor: 'black' }}
           >
             <List sx={{ width: 300, backgroundColor: '#100C08', color: '#2A623D' }}>
-              <ListItem button key="Home" onClick={() => toggleDrawerNav("", false)}>
+              <ListItem button key="Home" onClick={() => toggleDrawerNav("Home", false)}>
                  <ListItemIcon>
                    <CottageIcon sx={{ color: 'green' }} />
                  </ListItemIcon>

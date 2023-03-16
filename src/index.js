@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { StyledEngineProvider } from '@mui/material/styles';
-import App from './App';
+import Main from './Main';
 // import Valentine from './pages/Valentine/Valentine';
 import reportWebVitals from './reportWebVitals';
 // import {
@@ -13,7 +13,8 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <StyledEngineProvider injectFirst>
-      <App />
+    <Main />
+      {/* <App /> */}
       {/* <Valentine /> */}
   </StyledEngineProvider>,
   document.getElementById('root')

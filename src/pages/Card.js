@@ -95,7 +95,7 @@ function CardFunc(props)
             <Button sx={{ position: 'block'}} variant="contained" color="success" onClick={() => setOpen(true)}>Click for Memes</Button>
             <CenterModal isOpen={isOpen} onDismiss={() => setOpen(false)}>
               {/* Defaults to <h1> and gives it an id to make it the label for your modal */}
-              <ModalTitle>Modal title</ModalTitle>
+              <ModalTitle>The Meme Slideshow!</ModalTitle>
               <Carousel navButtonsAlwaysVisible="true" autoPlay="false">
                 {
                     picItems.map( (item, i) => <Item key={i} item={item} /> )
